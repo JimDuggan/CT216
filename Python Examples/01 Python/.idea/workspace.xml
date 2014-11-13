@@ -26,10 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HelloWorld.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HelloWorld.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HelloWorld.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="44" selection-start="64" selection-end="64" vertical-scroll-proportion="0.08196721" vertical-offset="0" max-vertical-offset="366">
+            <state line="1" column="0" selection-start="1" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloWorldFunction.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HelloWorldFunction.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.32786885" vertical-offset="0" max-vertical-offset="366">
               <folding />
             </state>
           </provider>
@@ -47,6 +56,7 @@
       <list>
         <option value="$PROJECT_DIR$/01 Hello.py" />
         <option value="$PROJECT_DIR$/HelloWorld.py" />
+        <option value="$PROJECT_DIR$/HelloWorldFunction.py" />
       </list>
     </option>
   </component>
@@ -361,7 +371,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/HelloWorld.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="44" selection-start="64" selection-end="64" vertical-scroll-proportion="0.08196721" vertical-offset="0" max-vertical-offset="366">
+        <state line="1" column="0" selection-start="1" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HelloWorldFunction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.32786885" vertical-offset="0" max-vertical-offset="366">
           <folding />
         </state>
       </provider>
