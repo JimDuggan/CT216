@@ -1,3 +1,3 @@
 __author__ = 'jim'
 
-print "Hello World"
+print "Hello World, Welcome to CT216 Project"

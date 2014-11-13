@@ -29,7 +29,7 @@
       <file leaf-file-name="HelloWorld.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HelloWorld.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="19" selection-start="39" selection-end="39" vertical-scroll-proportion="0.08196721" vertical-offset="0" max-vertical-offset="366">
+            <state line="2" column="44" selection-start="64" selection-end="64" vertical-scroll-proportion="0.08196721" vertical-offset="0" max-vertical-offset="366">
               <folding />
             </state>
           </provider>
@@ -361,7 +361,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/HelloWorld.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="39" selection-end="39" vertical-scroll-proportion="0.08196721" vertical-offset="0" max-vertical-offset="366">
+        <state line="2" column="44" selection-start="64" selection-end="64" vertical-scroll-proportion="0.08196721" vertical-offset="0" max-vertical-offset="366">
           <folding />
         </state>
       </provider>
