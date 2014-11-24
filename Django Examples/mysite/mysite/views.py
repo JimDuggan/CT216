@@ -2,6 +2,7 @@ from django.shortcuts import render_to_response
 from time import strftime, gmtime
 
 def welcome(request):
+    print request.get_host()
     return render_to_response('welcome.html')
 
 def test(request):

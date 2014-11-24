@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.25139666" vertical-offset="0" max-vertical-offset="537">
+            <state line="9" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -70,13 +70,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysite/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state line="4" column="28" selection-start="133" selection-end="133" vertical-scroll-proportion="0.11173184" vertical-offset="0" max-vertical-offset="537">
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
-                <marker date="1416769113000" expanded="true" signature="104:150" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -122,10 +121,10 @@
         <option value="$PROJECT_DIR$/mysite/urls.py" />
         <option value="$PROJECT_DIR$/mysite/templates/template_test.html" />
         <option value="$PROJECT_DIR$/mysite/templates/welcome.html" />
-        <option value="$PROJECT_DIR$/mysite/views.py" />
         <option value="$PROJECT_DIR$/mysite/templates/test.html" />
         <option value="$PROJECT_DIR$/mysite/templates/table.html" />
         <option value="$PROJECT_DIR$/mysite/settings.py" />
+        <option value="$PROJECT_DIR$/mysite/views.py" />
       </list>
     </option>
   </component>
@@ -514,16 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="570" selection-end="570" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-            <marker date="1416769113000" expanded="true" signature="104:150" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="0" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1530">
@@ -533,9 +522,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.25139666" vertical-offset="0" max-vertical-offset="537">
+        <state line="9" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
           <folding>
             <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="28" selection-start="133" selection-end="133" vertical-scroll-proportion="0.11173184" vertical-offset="0" max-vertical-offset="537">
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
