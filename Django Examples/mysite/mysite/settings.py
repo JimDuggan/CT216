@@ -24,9 +24,19 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
+#TEMPLATE_DIRS = (
+#"/Users/jim/Desktop/GitHub/CT216/Django Examples/mysite/mysite/templates"
+#)
+
+PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
+TEMPLATE_PATH = PROJECT_PATH +  '/templates/'
+
 TEMPLATE_DIRS = (
-"/Users/jim/Desktop/GitHub/CT216/Django Examples/mysite/mysite/templates"
+ TEMPLATE_PATH,
 )
+
+print PROJECT_PATH
+print TEMPLATE_PATH
 
 ALLOWED_HOSTS = []
 
