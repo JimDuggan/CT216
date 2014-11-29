@@ -70,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="28" selection-start="133" selection-end="133" vertical-scroll-proportion="0.11173184" vertical-offset="0" max-vertical-offset="537">
+            <state line="4" column="28" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
               </folding>
@@ -90,10 +90,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="test.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mysite/templates/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="5" selection-start="455" selection-end="455" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="540">
+            <state line="23" column="5" selection-start="455" selection-end="455" vertical-scroll-proportion="0.6725146" vertical-offset="0" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
@@ -444,7 +444,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24938875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24938875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -478,23 +478,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="25" selection-start="90" selection-end="90" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/templates/table.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="45" selection-start="335" selection-end="335" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/templates/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="5" selection-start="455" selection-end="455" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="540">
           <folding />
         </state>
       </provider>
@@ -531,10 +517,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="28" selection-start="133" selection-end="133" vertical-scroll-proportion="0.11173184" vertical-offset="0" max-vertical-offset="537">
+        <state line="4" column="28" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
           <folding>
             <element signature="e#0#47#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="25" selection-start="90" selection-end="90" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="5" selection-start="455" selection-end="455" vertical-scroll-proportion="0.6725146" vertical-offset="0" max-vertical-offset="540">
+          <folding />
         </state>
       </provider>
     </entry>
