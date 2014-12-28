@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<p>Dear {{ name }},</p>
+
+<p>Thank you for placing order number <b>{{ order_number }}</b></p>
+
+<p>These are the items you ordered today are {{ items }}</p>
+
+<ul>
+{% for i in items %}
+<li>Code = {{ i.ID }} Des = {{ i.Description }} Qty = {{ i.Qty }}</li>
+
+{% if i.Qty > 1 %}
+    <p> You ordered more than 1!</p>
+{% else  %}
+     <p> Less than 1 was ordered</p>
+{% endif %}
+
+{% endfor %}
+</ul>
+
+<p> Sincerely</p>
+<p>The Company</p>
+Date: {{ date }}
+
+</body>
+</html>

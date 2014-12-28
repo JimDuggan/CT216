@@ -29,7 +29,7 @@
       <file leaf-file-name="Queue.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Queue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="25" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+            <state line="7" column="25" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
@@ -38,7 +38,7 @@
       <file leaf-file-name="TestQueue.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestQueue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="60" selection-start="324" selection-end="363" vertical-scroll-proportion="0.16071428" vertical-offset="45" max-vertical-offset="810">
+            <state line="9" column="60" selection-start="363" selection-end="363" vertical-scroll-proportion="0.10714286" vertical-offset="75" max-vertical-offset="810">
               <folding>
                 <element signature="e#23#91#0" expanded="true" />
               </folding>
@@ -333,7 +333,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1227" height="683" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -392,7 +392,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestQueue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="60" selection-start="324" selection-end="363" vertical-scroll-proportion="0.16071428" vertical-offset="45" max-vertical-offset="810">
+        <state line="9" column="60" selection-start="363" selection-end="363" vertical-scroll-proportion="0.10714286" vertical-offset="75" max-vertical-offset="810">
           <folding>
             <element signature="e#23#91#0" expanded="true" />
           </folding>
