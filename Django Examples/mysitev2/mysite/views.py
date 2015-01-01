@@ -1,8 +1,12 @@
 from django.shortcuts import render_to_response
 from time import strftime, gmtime
+from books.models import Publisher
 
 def welcome(request):
     print request.get_host()
+    return render_to_response('welcome.html')
+
+def books(request):
     return render_to_response('welcome.html')
 
 def test(request):

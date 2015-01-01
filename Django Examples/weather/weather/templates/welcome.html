@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Welcome{% endblock %}
+
+{% block content %}
+
+<p>Welcome to the site. Please choose an option from the menu</p>
+{% if user.is_authenticated %}
+<p>{{ user }} You are now logged in ok...</p>
+    {% else %}
+
+    <p>Please login (or Register) first...</p>
+
+{% endif %}
+{%  endblock %}

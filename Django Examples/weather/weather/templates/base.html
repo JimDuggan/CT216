@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %} {% endblock %}</title>
+
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+</style>
+</head>
+
+<body>
+<h1>Weather Online System</h1>
+<ul>
+  <li><a href="/accounts/login/">Login</a></li>
+  <li><a href="/accounts/register/">Register</a></li>
+  <li><a href="/search-form/">Search</a></li>
+  <li><a href="/add_record/">Add Weather</a></li>
+  <li><a href="/accounts/logout/">Logout</a></li>
+</ul>
+<hr>
+{% block content %} {% endblock %}
+
+{% block footer %}
+<hr>
+{% if user.is_authenticated %}
+    <p>{{ user }} is currently logged in...</p>
+{% else %}
+    <p>Not logged in yet...</p>
+{% endif %}
+
+{% endblock %}
+</body>
+</html>
