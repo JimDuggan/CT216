@@ -18,7 +18,9 @@ def register(request):
     else:
         form=UserCreationForm()
 
-    return render(request,"registration/register.html",{'form':form})
+    return render(request,
+                  "registration/register.html",
+                  {'form':form})
 
 def welcome(request):
     return render(request,'welcome.html')
@@ -27,7 +29,7 @@ def welcome(request):
 @login_required
 def search_form(request):
     print request.session
-    return render_to_response('search.html')
+    return render(request,'search.html')
 
 # Processes the search request and displays the records
 @login_required
@@ -46,7 +48,9 @@ def search(request):
 @login_required
 def addWeatherData(request):
     form = WeatherDataForm()
-    return render(request,'wdata_form.html',{'form':form})
+    return render(request,
+                  'wdata_form.html',
+                  {'form':form})
 
 # Stores the weather data record
 @login_required
@@ -64,7 +68,8 @@ def storeWeatherData(request):
             wd.save()
             print("Saved weather record...")
         else:
-            return render(request,'wdata_form.html',{'form':form})
+            return render(request,
+                          'wdata_form.html',{'form':form})
 
     print("should be calling status...")
     return render(request, 'status.html',{'term':"Saved data to d/base..."})
