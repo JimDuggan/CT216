@@ -1,6 +1,5 @@
-__author__ = 'jim'
-
 from django.core.management.base import BaseCommand, CommandError
+
 from bank_app.models import Account
 
 class Command(BaseCommand):
