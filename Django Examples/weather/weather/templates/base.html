@@ -1,3 +1,4 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,6 +16,9 @@ li {
 }
 </style>
 </head>
+
+
+<img src="{{ STATIC_URL }}img/logo.png" alt="My image"/>
 
 <body>
 <h1>Weather Online System</h1>

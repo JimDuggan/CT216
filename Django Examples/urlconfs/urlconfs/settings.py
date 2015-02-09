@@ -1,5 +1,5 @@
 """
-Django settings for weather project.
+Django settings for urlconfs project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.6/topics/settings/
@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'zgfnr*4y*k1+zei^qbpxswogco4h7f0b)nnv&83lm5mj)#n7kn'
+SECRET_KEY = '#vvledziuoy65^bt-2p_v4-2!c$r=%$wdeg-o)r&n2j%5q6*2%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -26,18 +26,6 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
-PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
-TEMPLATE_PATH = PROJECT_PATH +  '/templates/'
-
-TEMPLATE_DIRS = (
- TEMPLATE_PATH,
-)
-
-
-
-
-
-print TEMPLATE_PATH
 
 # Application definition
 
@@ -48,11 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'weather_app',
 )
-
-STATIC_URL = '/static/'
-
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -63,9 +47,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'weather.urls'
+ROOT_URLCONF = 'urlconfs.urls'
 
-WSGI_APPLICATION = 'weather.wsgi.application'
+WSGI_APPLICATION = 'urlconfs.wsgi.application'
 
 
 # Database

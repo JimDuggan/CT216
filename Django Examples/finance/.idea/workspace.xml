@@ -52,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="create.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bank_app/management/commands/create.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="386" selection-end="386" vertical-scroll-proportion="0.32142857" vertical-offset="0" max-vertical-offset="560">
+            <state line="12" column="0" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
               <folding>
                 <element signature="e#0#65#0" expanded="true" />
               </folding>
@@ -83,10 +83,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="credit.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="credit.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bank_app/management/commands/credit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="52" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+            <state line="21" column="52" selection-start="736" selection-end="736" vertical-scroll-proportion="0.5625" vertical-offset="0" max-vertical-offset="560">
               <folding>
                 <element signature="e#20#85#0" expanded="true" />
               </folding>
@@ -97,7 +97,7 @@
       <file leaf-file-name="statement.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bank_app/management/commands/statement.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+            <state line="10" column="8" selection-start="291" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
               <folding>
                 <element signature="e#20#85#0" expanded="true" />
               </folding>
@@ -576,27 +576,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank_app/management/commands/credit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="52" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <folding>
-            <element signature="e#20#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bank_app/management/commands/debit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <folding>
-            <element signature="e#20#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bank_app/management/commands/statement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
           <folding>
             <element signature="e#20#85#0" expanded="true" />
           </folding>
@@ -612,9 +594,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bank_app/management/commands/create.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="386" selection-end="386" vertical-scroll-proportion="0.32142857" vertical-offset="0" max-vertical-offset="560">
+        <state line="12" column="0" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
           <folding>
             <element signature="e#0#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank_app/management/commands/statement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="8" selection-start="291" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <folding>
+            <element signature="e#20#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank_app/management/commands/credit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="52" selection-start="736" selection-end="736" vertical-scroll-proportion="0.5625" vertical-offset="0" max-vertical-offset="560">
+          <folding>
+            <element signature="e#20#85#0" expanded="true" />
           </folding>
         </state>
       </provider>

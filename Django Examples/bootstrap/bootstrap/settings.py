@@ -1,5 +1,5 @@
 """
-Django settings for weather project.
+Django settings for bootstrap project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.6/topics/settings/
@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'zgfnr*4y*k1+zei^qbpxswogco4h7f0b)nnv&83lm5mj)#n7kn'
+SECRET_KEY = 'sipo@pb#v+ysa1%1jt%-li*7yb=bgox(!^keh5h_h^4x&#6l=$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -34,11 +34,6 @@ TEMPLATE_DIRS = (
 )
 
 
-
-
-
-print TEMPLATE_PATH
-
 # Application definition
 
 INSTALLED_APPS = (
@@ -48,11 +43,10 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'weather_app',
+    'app',
 )
 
 STATIC_URL = '/static/'
-
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -63,9 +57,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'weather.urls'
+ROOT_URLCONF = 'bootstrap.urls'
 
-WSGI_APPLICATION = 'weather.wsgi.application'
+WSGI_APPLICATION = 'bootstrap.wsgi.application'
 
 
 # Database
