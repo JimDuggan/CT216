@@ -11,3 +11,7 @@ def marketing(request):
 
 def jumbotron(request):
     return render(request,'jumbotron.html')
+
+
+def test(request):
+    return render(request,'test.html')
