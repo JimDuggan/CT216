@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load humanize %}
+
+{% block content %}
+
+<div class="bs-example">
+    <h2 align="center">Here are the results of the query</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Row</th>
+                <th>City</th>
+                <th>Province</th>
+                <th>Population</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for d in cdata %}
+            <tr>
+                <td>{{ forloop.counter }}</td>
+                <td>{{d.City }}</td>
+                <td>{{d.Province }}</td>
+                <td>{{d.Population|intcomma }}</td>
+            </tr>
+
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+{%  endblock %}
