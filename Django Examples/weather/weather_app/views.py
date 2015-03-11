@@ -7,6 +7,20 @@ from django.contrib.auth.decorators import login_required
 from django import forms
 from django.contrib.auth.forms import UserCreationForm
 from django.http import HttpResponseRedirect
+from django.contrib import auth
+from weather_app.models import UserProfile
+
+def printUserInfo(u):
+    print "Printing new user information..."
+    print "Username = ", u.username
+    print "first_name = ", u.first_name
+    print "last_name = ", u.last_name
+    print "date_joined =", u.date_joined
+    # Get the link to the userprofile
+    userp=getattr(u,'userprofile')
+    print "Attribute 1", userp.att1
+    print "Attribute 2", userp.att2
+    print "Attribute 3", userp.att3
 
 # Create your views here.
 def register(request):
@@ -14,6 +28,28 @@ def register(request):
         form = UserCreationForm(request.POST)
         if form.is_valid():
             new_user = form.save()
+            # Adding code to show how to create a profile object
+            username = request.POST.get('username','')
+            password = request.POST.get('password1','')
+            print "Username is ", username
+            print "Password is ", password
+            # Need to get the object that has just been created (User)
+            user = auth.authenticate(username=username, password=password)
+
+            # Create a user profile object (see models.py)
+            userP = UserProfile()
+
+            # Link the django user object to this profile object
+            userP.user = user
+
+            # Add the attributes to the profile (e.g. date of birth, phone, user type, etc)
+            userP.att1 = "User Attribute 1"
+            userP.att2 = "User Attribute 2"
+            userP.att3 = "User Attribute 3"
+
+            # See how you can access the profile data from the user object.
+            printUserInfo(user)
+
             return HttpResponseRedirect("/search-form/")
     else:
         form=UserCreationForm()
